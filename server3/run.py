@@ -1,9 +1,7 @@
 from flask import Flask, escape, request
 import requests
 import time
-import threading
 
-print(threading.active_count())
 
 app = Flask(__name__)
 
@@ -11,8 +9,6 @@ app = Flask(__name__)
 def hello():
     url = 'http://lovegaudi.art:3000'
     requests.get(url)
-    print(threading.active_count())
-    #time.sleep(10)
     return 'Hello'
 
 
