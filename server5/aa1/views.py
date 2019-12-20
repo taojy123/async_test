@@ -7,3 +7,4 @@ def index(request):
     requests.get(url)
     return HttpResponse('ok')
     
+    

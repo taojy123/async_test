@@ -19,3 +19,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+# python3 manage.py runserver 0.0.0.0:5000
+# gunicorn tt1.wsgi -b 0.0.0.0:5000 -k gevent
