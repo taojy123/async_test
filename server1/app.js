@@ -6,7 +6,7 @@ const app = express()
 app.get('/', (req, res) => {
 
 	request('http://lovegaudi.art:3000', (error, response, body) => {
-		res.send('1111')
+		res.send('hello')
 	})
 })
 
