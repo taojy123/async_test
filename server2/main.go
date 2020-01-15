@@ -29,6 +29,6 @@ func main() {
 // add-apt-repository ppa:longsleep/golang-backports apt-get update
 // apt-get install golang-go
 // export GO111MODULE=on
-// export GOPROXY=https://goproxy.io
+// export GOPROXY=https://goproxy.cn
 // go run main.go
 
